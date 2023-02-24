@@ -33,7 +33,7 @@ def download_csv(dataframe):
 def main():
     st.set_page_config(page_title="VAT Checker", page_icon=":guardsman:", layout="wide")
     st.title("Value Added Tax Checker")
-    st.markdown("This application allows you tod check the 7% value-added tax (VAT) of companies that you have entered.")
+    st.markdown("This application allows you check the 7% value-added tax (VAT) of companies that you have entered.")
 
     dataframe = load_data()
 
